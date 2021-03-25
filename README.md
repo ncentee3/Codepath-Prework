@@ -1,1 +1,26 @@
-# Codepath-Prework
+SITE Pre-Work Submission
+Name: Nicholas Centenera
+
+1. https://www.w3schools.com/js/js_comparisons.asp  
+    -Used to ensure I was using the correct operators
+   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden
+   -Helped me determine where to place attribute for stop button
+   https://www.w3schools.com/cssref/css_colors.asp
+   -Colors for new boxes (Optional Features 1)
+   https://www.w3schools.com/jsref/jsref_random.asp
+   https://www.w3schools.com/js/js_random.asp
+   https://www.w3schools.com/js/js_loop_for.asp
+   https://www.w3schools.com/jsref/jsref_push.asp
+   -Where I learned the structure of for loops for javascript as well as how to add something to an array and how math.floor and math.random works
+
+2) During the process of doing the pre-work, the biggest thing I struggled with was the barrier between languages. More specifically, I struggled with the task of doing the optional feature 3, using a random secret pattern. As an individual who is coming from a python background who hasn’t had much experience using JavaScript, I had trouble figuring out the syntax of a JavaScript for loop as well as generating a random pattern with boundaries. To overcome this obstacle, I first relied on my own knowledge. I was familiar with how a for loop works as well as generating a random number, but I couldn’t figure out the syntax of the loop. After I realized I wasn’t going to be able to solve this problem with my knowledge, I then did my research and was able to utilize my resources to assist me with this task. These resources assisted me the syntax of a for loop, generating a random number, and how to push that randomly generated number into an array. In the end, I was able to figure it out with perseverance and the use of my resources. Through this task and other tasks that I encountered in my coding career, I learned that keeping an open mind as well as having a passion for improving oneself will lead to success. As engineers, answers aren't handed out to us. We need to utilize all resources including your knowledge and other resources because if you don't try it yourself, you will never gain that knowledge of solving a problem as I did and if you don't have an open mind, you won't be able to collaborate with others and maximize your resources around you to successfully solve a problem and learn something from it.
+
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
+
+As an individual who is learning more and more about web development, there a lot of questions going through my mind. In today’s society, it is a website and data breaches are becoming increasingly more common. One question I have about web development is how you prevent your website from being compromised.  In other words, how to keep your website secure.  Back in 2014, I was using eBay to make money for myself. I remember being scared of my debit card being stolen because there was a data breach of 145 million people and usernames and passwords were exposed.  This is something I would like to prevent if I made a website in the future.  Learning more about this topic would help me in my future endeavors as well as the company and its consumers keep safe.  
+One thing I learned from this project is that lines of code could be used in different ways.  I learned this while using my resources and seeing how other people are using the same built-in functions as I did. Another question I have is how extensible is the code for a web developer?  In other words, can the code a web developer writes be used in other applications of the world?  As a basic example, this pre-work.  Could the code in this be used to a traffic light if altered and changed? Or even a game for an IOS or android application?   
+
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) YOUR ANSWER HERE]
+
+   If I had a few more hours to work on this project, I would like to add a more difficult game mode to attempt to deceive the user. To do so, I would want to make it so each turn where the button lights up and plays its sound, another button lights up, but its sound doesn’t play. For example, if blue is the right choice, it’ll light up and do its noise. But at the same time, the red button lights up, but it doesn’t play the noise it makes. This would force the user to focus more on the game and rely on hearing and vision more.
+   In order to complete this task, I would need to change to function “playSingleClue”. A way to do this is by creating a new function called “trickpattern” which is an array of randomly generated numbers and an empty array called “trick”. I could use a for loop utilizing “.push”, “math.floor” and “math.random” (similar to what I did in optional feature 3) and that’ll create a random array with my desired pattern length. I would also incorporate an if statement that doesn’t allow the number in “pattern” to equal the number in “trick” and then a newly generated number is added in place in the index. This is so every time a clue plays, there is always two buttons lighting up. I would then call back to the function in the functions, “playSingleClue” and “playClueSequence”. This initializes the sequence that is trying to trick the user.
